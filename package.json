@@ -1,5 +1,5 @@
 {
-  "name": "nodetest",
+  "name": "codetest_node",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -7,15 +7,15 @@
   "scripts": {},
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/oscarolsson94/nodetest.git"
+    "url": "git+https://github.com/oscarolsson94/codetest_node.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/oscarolsson94/nodetest/issues"
+    "url": "https://github.com/oscarolsson94/codetest_node/issues"
   },
-  "homepage": "https://github.com/oscarolsson94/nodetest#readme",
+  "homepage": "https://github.com/oscarolsson94/codetest_node#readme",
   "dependencies": {
     "axios": "^0.21.1",
     "dotenv": "^10.0.0",
