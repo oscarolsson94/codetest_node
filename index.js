@@ -33,12 +33,11 @@ app.listen(PORT, () => {
 
 //run once per hour, change to ("* * * * *") for once per minute
 schedule.scheduleJob("0 * * * *", async () => {
+  await fetchData();
   if (initialRun) {
-    await fetchData();
     await uploadToDB();
     initialRun = false;
   } else {
-    await fetchData();
     await updateDB();
   }
 });
